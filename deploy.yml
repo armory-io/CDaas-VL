@@ -157,7 +157,7 @@ strategies:  # Stragies names and definition
               - avgCPUUsage-pass
 
 analysis:  # Canary analysis queries and thresholds
-  defaultMetricProviderName: Stephen-Prometheus
+  defaultMetricProviderName: CDaaS-Prometheus
   queries:
     - name: avgCPUUsage-pass
       upperLimit: 10000 #3
